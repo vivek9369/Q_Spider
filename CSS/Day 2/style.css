@@ -1,0 +1,23 @@
+* body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(216, 246, 134);
+}
+h1{
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+#p2{
+    background-color: rgb(204, 134, 42);
+}
+
+.d2{
+    background-color: rgb(71, 167, 211);
+}
+
+.p1{
+    color: greenyellow;
+    background-color: darkmagenta;
+}
