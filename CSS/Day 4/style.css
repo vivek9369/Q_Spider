@@ -1,0 +1,15 @@
+a:hover{
+    background-color: chartreuse
+}
+
+.a2:hover{
+    color: coral;
+}
+
+button:active{
+    color: pink;
+}
+
+input:focus{
+    background-color: red;
+}

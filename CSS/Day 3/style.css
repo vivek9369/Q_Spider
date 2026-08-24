@@ -1,0 +1,52 @@
+
+/*
+main :first-child {
+    background-color: aqua;
+}
+
+main :last-child {
+    background-color: rgb(68, 241, 20);
+}
+
+main :nth-child(4) {
+    background-color: blueviolet;
+}
+
+main :nth-last-child(3) {
+    background-color: brown;
+}
+
+*/
+/*
+main :nth-child(2)  {
+    background-color: gold;
+    
+}
+
+main :nth-child(4){
+    background-color: red;
+}
+
+main :nth-child(1),
+main :nth-child(3),
+main :nth-child(5)
+ {
+    background-color: blueviolet;
+} */
+
+
+main div:first-of-type {
+    background-color: aqua;
+}
+
+main p:last-of-type {
+    background-color: pink;
+}
+
+main :nth-child(7){
+    background-color: fuchsia;
+}
+
+main p:nth-last-of-type(2) {
+    background-color: red;
+}

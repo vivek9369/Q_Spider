@@ -1,0 +1,38 @@
+/*
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3::first-line{
+    color: rgb(55, 12, 244);
+}
+
+ul li::marker{
+    content: "💕";
+}
+
+h1 ::before{
+    content: "RAJ";
+    color: red;
+}
+
+h1 ::after{
+    content: "YADAV";
+    color: aqua;
+}
+    */
+
+
+div[title^="div1"]{
+   color: #F02475;
+}
+
+div[title$="div2"]{
+    color: #C6D6B8;
+}
+
+div[title~="div3"]{
+    color: #FFD3B5;
+}

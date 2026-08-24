@@ -1,0 +1,31 @@
+/*
+
+main  :is(.p1 ,.p5) {
+    color: rgb(25, 21, 236);
+}
+
+main :is(#p2, #p4){
+    color: rgb(243, 102, 8);
+}
+ 
+
+main > p:nth-child(3){
+    color: rgb(234, 202, 22);
+}
+
+*/
+
+div{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+div:has(span){
+    background-color: navy;
+}
+
+div:has(p) {
+    background-color: palevioletred
+}

@@ -1,0 +1,11 @@
+h1::first-letter{
+    color: rgb(248, 8, 8);
+}
+div p::first-line{
+    background-color: yellow;
+}
+
+div p::selection{
+    color: pink;
+}
+
