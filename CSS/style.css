@@ -1,0 +1,28 @@
+div{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Playwrite DE LA Guides", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-style: italic;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(  rgb(214, 134, 36), rgb(243, 37, 219), rgb(240, 244, 40));
+}
+
+h1{
+     font-size: 60px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    
+
+}
+h1:hover{
+    color: rgb(234, 231, 7);
+}
