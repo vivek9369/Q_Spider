@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+  min-height: inherit;
+  background-color: #333;
+  padding: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 250px);
+  /* gap: 50px; */
+  /* justify-items:center ;
+    align-items: center; */
+  place-items: center;
+
+  /* justify-content: end;
+    align-content: center; */
+  place-content: center end;
+}
+
+main .card {
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+}
+
+main .c1 {
+  background-color: violet;
+}
+
+main .c2 {
+  background-color: springgreen;
+}
+
+main .c3 {
+  background-color: tomato;
+}
