@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 150px;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.container .c1 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    margin: 10px;
+    /* visibility: hidden;*/
+
+
+}
+
+.c1:hover {
+    background-color: blue;
+}
+
+.container .c2 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(197, 238, 45);
+    margin: 10px;
+}
+
+.c2:hover {
+    background-color: pink;
+}
+
+.container .c3 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(224, 44, 24);
+    margin: 10px;
+}
+
+.c3:hover {
+    background-color: navy;
+}
+
+.container .c4 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(239, 141, 198);
+    margin: 10px;
+    transform: translate(-50, -50);
+}
+
+.c4:hover {
+    background-color: maroon;
+}
+
+.container .c5 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: green;
+    margin: 10px;
+}
+
+.c5:hover {
+    background-color: rgb(242, 208, 229);
+}
