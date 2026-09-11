@@ -1,0 +1,79 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,ol{
+    list-style-type: none;
+} 
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+   max-width: 500px;
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.dot{
+    width: 50px;
+    height: 50px;
+    border: 10px dotted  black;
+    border-radius: 50%;
+}
+
+ /* .container h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+.container .progress{
+    width: 100%;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.container .progress .loader {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(169, 212, 236);
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 10;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loader {
+    form {
+           width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
